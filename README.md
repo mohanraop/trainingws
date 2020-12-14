@@ -1,4 +1,4 @@
-I am adding lot of core java program which may help in interview
+I am adding number of core java programs which may help in interview
 
 1.Overriding
 
