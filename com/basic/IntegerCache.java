@@ -1,6 +1,6 @@
 package com.basic;
 
-public class IntegerCace {
+public class IntegerCache {
     public static void main(String[] args) {
         Integer i1=124;
         Integer i2=124;
