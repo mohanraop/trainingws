@@ -10,6 +10,7 @@ public interface Sortting {
     public void sort();
 
     static void print(){
+        System.out.println("Result after sorting");
         iList.forEach(System.out::println);
     }
 

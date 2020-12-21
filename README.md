@@ -1,34 +1,39 @@
 I am adding number of core java programs which may help in interview
 
-1.Overriding
+1. Overriding
 
-2.Overloading
+2. Overloading
 
-3.Array
+3. Array
 
-4.sorting Boolean values
+4. Sorting Boolean values
 
-5.Types of for loops
+5. Types of for loops
 
-6.Overloading Main method
+6. Overloading Main method
 
-7.String joiner
+7. String joiner
 
-8.Fail Fast and Fail Safe in loops
+8. Fail Fast and Fail Safe in loops
 
 9. hashcode() and equal() contrast 
 
-10.ArrayList
+10. ArrayList
 
-11.Binary Search
+11. Binary Search
 
-12.Linear Search
+12. Linear Search
 
-13.Demon Threads
+13. Insertion Sort
 
-14.Creating dead loack 
+14. Demon Threads
 
-15.Volatile usage
+15. Creating dead lock 
 
-16. Wait and Notify
+16. Volatile usage
+
+17. Wait and Notify
+
+18. Streams & Parallel Streams
+
 
