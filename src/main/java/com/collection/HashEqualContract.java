@@ -1,8 +1,10 @@
 package com.collection;
 
+import com.basic.Employee;
+import com.basic.Student;
+
 import java.util.HashMap;
 import java.util.Map;
-import java.util.Objects;
 
 public class HashEqualContract {
     public static void main(String[] args) {
@@ -35,57 +37,3 @@ public class HashEqualContract {
 }
 
 
-class Employee{
-    String name;
-
-    public Employee(String name) {
-        this.name=name;
-    }
-
-    public Employee() {
-
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    @Override
-    public int hashCode() {
-        return Objects.hash(name);
-    }
-}
-
-class Student{
-
-    String name;
-    public Student(String name) {
-        this.name=name;
-    }
-
-    public Student() {
-
-    }
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-    @Override
-    public int hashCode() {
-        return Objects.hash(name);
-    }
-    @Override
-    public boolean equals(Object o) {
-        if (this == o) return true;
-        if (o == null || getClass() != o.getClass()) return false;
-        Student student = (Student) o;
-        return Objects.equals(name, student.name);
-    }
-}
