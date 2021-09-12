@@ -5,7 +5,7 @@ I am adding number of core java programs which may help in interview
 2. Overloading
 
 3. Array
-
+   
 4. Sorting Boolean values
 
 5. Types of for loops
@@ -35,5 +35,7 @@ I am adding number of core java programs which may help in interview
 17. Wait and Notify
 
 18. Streams & Parallel Streams
+
+19. LRU Implementation 
 
 
