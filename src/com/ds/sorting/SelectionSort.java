@@ -1,7 +1,5 @@
 package com.ds.sorting;
 
-import java.util.function.Supplier;
-
 public class SelectionSort implements Sortting{
     public static void main(String[] args) {
      new  SelectionSort().sort();

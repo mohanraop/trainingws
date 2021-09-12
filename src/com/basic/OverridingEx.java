@@ -44,7 +44,7 @@ class B extends A{
         System.out.println("public + Integer - A & public + int - b ");
     }
    /*
-   'm6(Integer)' in 'com.basic.B' clashes with 'm6(Integer)' in 'com.basic.A';
+   'm6(Integer)' in 'B' clashes with 'm6(Integer)' in 'A';
    overridden method does not throw 'java.lang.Exception
    public void m6(Integer i) throws Exception {
         System.out.println("public + Integer -A");
