@@ -40,5 +40,7 @@ public class OverloadMainMethod {
    }
    */
 
+    //public static void fun(Integer i){}
+    //public static void fun(Integer i){}
 
 }
