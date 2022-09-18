@@ -37,7 +37,7 @@ class Stack{
     }
 
     public void push(String element) throws Exception {
-        System.out.println(Thread.currentThread().getName());
+        System.out.println("Push -- "+Thread.currentThread().getName());
         if(index>= ele.length){
             throw new Exception("can not push more elements");
         }
@@ -48,7 +48,7 @@ class Stack{
         }
     }
     public String pop() throws Exception {
-        System.out.println(Thread.currentThread().getName());
+        System.out.println("Pop -- "+Thread.currentThread().getName());
         if (index<0){
             throw new Exception("No elements in the stack");
         }

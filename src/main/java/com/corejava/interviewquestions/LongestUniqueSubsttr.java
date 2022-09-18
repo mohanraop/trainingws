@@ -14,7 +14,7 @@ public class LongestUniqueSubsttr{
             if(sb.indexOf(String.valueOf(ch))>=0){
                 maxLength = Math.max(sb.length(),maxLength);
                 sb=  new StringBuilder(sb.substring(index+1));
-                //System.out.println(sb);
+                System.out.println(sb);
             }
             sb.append(ch);
         }
@@ -25,14 +25,15 @@ public class LongestUniqueSubsttr{
 
     public static void  main(String[] args) {
         //String str = "geeksforgeeks";
-        //String str = "ABDEFGABEF";
-        //String str = "abcabcbb";
+       // String str = "ABDEFGABEF";
+        //String str = "abcabcbb"; k==2, bcbb
         //String str = "bbbbb";
         //String str = "pwwkew";
-        String str = "dvdf";
+        //String str = "dvdf";
         //String str = "";
         //String str = null;
         //String str = " ";
+        String str ="";
 
 
         System.out.println("The input string is " + str);

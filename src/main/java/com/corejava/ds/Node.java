@@ -1,10 +1,10 @@
 package com.corejava.ds;
 
-class Node {
+public class Node {
     public Integer val;
     public Node left, right;
 
-    Node(Integer val) {
+    public Node(Integer val) {
         this.val = val;
         left = right = null;
     }
