@@ -1,5 +1,7 @@
 package com.corejava.ds;
 
+import java.util.Stack;
+
 class BSTree {
     Node rn;
 
@@ -109,6 +111,45 @@ class BSTree {
         if(n.left==null && n.right==null)
             return 1;
         return 0;
+    }
+
+    public  void postorderIterative()
+    {
+        System.out.println();
+        Node root = rn;
+        // return if the tree is empty
+        if (root == null) {
+            return;
+        }
+
+        // create an empty stack and push the root node
+        Stack<Node> stack = new Stack<>();
+        stack.push(root);
+
+        // create another stack to store postorder traversal
+        Stack<Integer> out = new Stack<>();
+
+        // loop till stack is empty
+        while (!stack.empty())
+        {
+            // pop a node from the stack and push the data into the output stack
+            Node curr = stack.pop();
+            out.push(curr.val);
+
+            // push the left and right child of the popped node into the stack
+            if (curr.left != null) {
+                stack.push(curr.left);
+            }
+
+            if (curr.right != null) {
+                stack.push(curr.right);
+            }
+        }
+
+        // print postorder traversal
+        while (!out.empty()) {
+            System.out.print(out.pop() + " ");
+        }
     }
 
     private int sumTree(Node rn) {
