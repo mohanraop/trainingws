@@ -23,9 +23,9 @@ public class BubbleSort implements Sortting{
                     isSwapped=true;
                 }
             }
-
+            System.out.println();
             System.out.println("round="+(i+1));
-            iList.forEach(System.out::println);
+            iList.stream().map(val->val+" ").forEach(System.out::print);
             if (!isSwapped)
                 break;
         }
