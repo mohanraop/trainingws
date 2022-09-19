@@ -5,14 +5,16 @@ public class InsertionSort implements  Sortting{
     @Override
     public void sort() {
         int temp;
-        for(int index=0;index<iList.size();index++){
+        for(int index=1;index<iList.size();index++){
             int secondayIndex=index;
+            temp=iList.get(secondayIndex);
             while (secondayIndex>0){
-                if(iList.get(index)>iList.get(secondayIndex)){
-                    temp=iList.get(index);
-                    iList.set(index,iList.get(secondayIndex));
+                if(iList.get(secondayIndex)>temp){
+                    iList.set(secondayIndex+1,iList.get(secondayIndex));
                     iList.set(secondayIndex,temp);
+                    break;
                 }
+                iList.set(secondayIndex+1,iList.get(secondayIndex));
                 secondayIndex--;
             }
             System.out.println();

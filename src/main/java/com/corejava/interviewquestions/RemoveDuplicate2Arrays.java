@@ -12,8 +12,8 @@ public class RemoveDuplicate2Arrays {
         Stream.of(i, j).forEach(c -> Arrays.stream(c).forEach(val -> finalList.add(val)));
         finalList.forEach(System.out::println);
         Set<Integer> afinalList = new HashSet<>();
-        int il = i.length, jl = j.length, fl, id = 0, jd = 0;
-        fl = il > jl ? il : jl;
+        int il = i.length, jl = j.length, id = 0, jd = 0;
+
         while (id < il || jd < jl) {
             if (id < il)
                 afinalList.add(i[id++]);

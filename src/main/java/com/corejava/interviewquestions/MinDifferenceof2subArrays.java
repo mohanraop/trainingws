@@ -1,7 +1,6 @@
 package com.corejava.interviewquestions;
-import java.util.*;
 
-class GFG {
+class MinDifferenceof2subArrays {
 
     static int minDifference(int arr[], int n)
     {

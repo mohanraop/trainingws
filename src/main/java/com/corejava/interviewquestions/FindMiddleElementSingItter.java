@@ -4,7 +4,7 @@ import com.corejava.ds.Node;
 
 import java.util.*;
 
-public class LindMiddleElementSingItter {
+public class FindMiddleElementSingItter {
     public static void main(String[] args) {
         LinkedList<Integer> li = new LinkedList<>();
         li.add(1);
