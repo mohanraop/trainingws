@@ -14,15 +14,14 @@ public class LinkedList {
         return head;
     }
     public static void printList(Node head){
-        while (true) {
+
+        while (head!=null) {
             System.out.print(head.val +" - > ");
-            if (head.right == null)
-                break;
             head = head.right;
         }
         System.out.println();
     }
-    static void addVal(Node head, int val){
+    public static void addVal(Node head, int val){
         Node tmp = new Node(val);
         while (true){
             if(head.right == null)
