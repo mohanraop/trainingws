@@ -15,6 +15,8 @@ public class Compare2Arrays {
     }
     public static boolean check2(long A[],long B[],int N)
     {
+        String test = "";
+
         //using a HashMap to store frequency of elements.
         HashMap<Long, Long> hm = new HashMap<Long, Long>();
 

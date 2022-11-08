@@ -1,4 +1,4 @@
-package com.corejava.basic;
+package com.corejava.interviewquestions;
 
 import java.util.ArrayList;
 import java.util.function.BinaryOperator;
@@ -29,6 +29,15 @@ public class ArmstrongNumber {
             }
             return nval;
         }).reduce(Integer::sum).get();
+
+        int val = i,sum=0,j;
+        while(val>0){
+              j = val%10;
+            val = val/10;
+            sum += (j*j*j);
+        }
+        System.out.println(sum);
+
         return temp==i;
     }
 }

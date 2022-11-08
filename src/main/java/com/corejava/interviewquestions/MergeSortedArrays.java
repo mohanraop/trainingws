@@ -1,4 +1,4 @@
-package com.corejava.basic;
+package com.corejava.interviewquestions;
 
 import java.util.Arrays;
 
