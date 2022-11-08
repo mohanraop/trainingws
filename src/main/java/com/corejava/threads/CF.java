@@ -7,6 +7,7 @@ import java.util.function.Function;
 public class CF {
     public static void main(String[] args) {
         System.out.println("Started");
+        System.out.println("Started");
 
         CompletableFuture
                 .supplyAsync(()->200)
