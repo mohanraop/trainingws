@@ -17,7 +17,7 @@ public class FolderIttereater {
                    throw new RuntimeException(e);
                }
            }else{
-               System.out.println(fp.getFileName().toAbsolutePath().toString());
+               System.out.println(fp.toAbsolutePath());
            }
        });
    }
