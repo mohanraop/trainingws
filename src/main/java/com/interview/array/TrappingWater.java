@@ -19,6 +19,8 @@ public class TrappingWater {
             left[i] = Math.max(height[i], left[i-1]);
             right[len - i - 1] = Math.max(height[len- i - 1], right[len-i]);
         }
+        //left{0,1,1,2,2,2,2,3,3,3,3,3};
+        //right{1,2,2,2,3,3,3,3,3,3,3,3};
 
         int maxWaterTrapped = 0;
         for (int i = 1; i < len - 1; i++) {
