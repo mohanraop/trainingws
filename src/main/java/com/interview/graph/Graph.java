@@ -95,6 +95,10 @@ public class Graph<T>{
         }
         return buffer.toString();
     }
+
+    public int getNumVertices() {
+        return 0;
+    }
 }
 
 
