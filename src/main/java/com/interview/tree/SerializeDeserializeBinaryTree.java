@@ -1,6 +1,5 @@
 package com.interview.tree;
 
-import javax.swing.tree.TreeNode;
 import java.util.Deque;
 import java.util.LinkedList;
 
