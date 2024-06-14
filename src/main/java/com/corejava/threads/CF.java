@@ -19,9 +19,14 @@ public class CF {
         Function<Integer,Integer> fun = i->i*2;
         Consumer<Integer> con = System.out::println;
         printResult(fun,con);
+        var i =  10;
+        var result  = consumeResuklts(i);
 
 
 
+    }
+    private static String consumeResuklts(Integer temp){
+        return "";
     }
 
     private static void printResult(Function<Integer, Integer> fun, Consumer<Integer> con) {
